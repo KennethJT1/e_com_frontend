@@ -8,9 +8,9 @@ import { useNavigate } from "react-router-dom";
 
 export default function Register() {
   //state   
-  const [name, setName] = useState("Kenneth");
-  const [email, setEmail] = useState("Kenneth@gmail.com");
-  const [password, setPassword] = useState("qqqqqq");
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
   //hook
   const [auth, setAuth] = useAuth();
