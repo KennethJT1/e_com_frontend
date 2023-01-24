@@ -95,7 +95,7 @@ export default function Home() {
               setPage(page + 1);
             }}
           >
-            {loading ? "Loading..." : "Lord more"}
+            {loading ? "Loading..." : "Load more"}
           </button>
         )}
       </div>
